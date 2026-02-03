@@ -1,0 +1,15 @@
+{
+  "name": "transaction-risk-api",
+  "version": "1.0.0",
+  "description":"Transaction risk scoring API",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js",
+    "dev":"node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "joi": "^18.0.2",
+    "winston": "^3.19.0"
+  }
+}
